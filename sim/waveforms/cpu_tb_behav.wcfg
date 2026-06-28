@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cpu_tb" />
+            <top_module name="glbl" />
+            <top_module name="uart_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="519.392260 us"></ZoomStartTime>
+      <ZoomEndTime time="525.761549 us"></ZoomEndTime>
+      <Cursor1Time time="524.700000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="147"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="40" />
+   <wvobject fp_name="/cpu_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/PADDR" type="array">
+      <obj_property name="ElementShortName">PADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/PWDATA" type="array">
+      <obj_property name="ElementShortName">PWDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PWDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/PSEL" type="logic">
+      <obj_property name="ElementShortName">PSEL</obj_property>
+      <obj_property name="ObjectShortName">PSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/PENABLE" type="logic">
+      <obj_property name="ElementShortName">PENABLE</obj_property>
+      <obj_property name="ObjectShortName">PENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/PWRITE" type="logic">
+      <obj_property name="ElementShortName">PWRITE</obj_property>
+      <obj_property name="ObjectShortName">PWRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/uart_wrapper_1/curr_state" type="array">
+      <obj_property name="ElementShortName">curr_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">curr_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/br/baud_rate_hex" type="array">
+      <obj_property name="ElementShortName">baud_rate_hex[20:0]</obj_property>
+      <obj_property name="ObjectShortName">baud_rate_hex[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/it/rx_done_en" type="logic">
+      <obj_property name="ElementShortName">rx_done_en</obj_property>
+      <obj_property name="ObjectShortName">rx_done_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/it/tx_done_en" type="logic">
+      <obj_property name="ElementShortName">tx_done_en</obj_property>
+      <obj_property name="ObjectShortName">tx_done_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/br/counter" type="array">
+      <obj_property name="ElementShortName">counter[12:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/br/cycle" type="array">
+      <obj_property name="ElementShortName">cycle[20:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/br/baud_tick" type="logic">
+      <obj_property name="ElementShortName">baud_tick</obj_property>
+      <obj_property name="ObjectShortName">baud_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/br/baud_tick_half" type="logic">
+      <obj_property name="ElementShortName">baud_tick_half</obj_property>
+      <obj_property name="ObjectShortName">baud_tick_half</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/tx_fifo_1/tx_fifo_data_in" type="array">
+      <obj_property name="ElementShortName">tx_fifo_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_fifo_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/tx_1/tx_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">tx_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">tx_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/tx_1/tx_fifo_rd_en" type="logic">
+      <obj_property name="ElementShortName">tx_fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">tx_fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/tx_1/curr_state" type="array">
+      <obj_property name="ElementShortName">curr_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">curr_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/tx_1/tx_data_in" type="array">
+      <obj_property name="ElementShortName">tx_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/tx_1/shift_reg" type="array">
+      <obj_property name="ElementShortName">shift_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/tx_1/bit_cnt" type="array">
+      <obj_property name="ElementShortName">bit_cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/tx_1/tx_data_out" type="logic">
+      <obj_property name="ElementShortName">tx_data_out</obj_property>
+      <obj_property name="ObjectShortName">tx_data_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/tx_1/tx_done" type="logic">
+      <obj_property name="ElementShortName">tx_done</obj_property>
+      <obj_property name="ObjectShortName">tx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/rx_1/curr_state" type="array">
+      <obj_property name="ElementShortName">curr_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">curr_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/rx_1/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/rx_1/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/rx_1/rx_data_shifted" type="array">
+      <obj_property name="ElementShortName">rx_data_shifted[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data_shifted[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/rx_1/bit_ctn" type="array">
+      <obj_property name="ElementShortName">bit_ctn[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_ctn[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/rx_1/rx_fifo_full" type="logic">
+      <obj_property name="ElementShortName">rx_fifo_full</obj_property>
+      <obj_property name="ObjectShortName">rx_fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/rx_1/rx_fifo_wrt_en" type="logic">
+      <obj_property name="ElementShortName">rx_fifo_wrt_en</obj_property>
+      <obj_property name="ObjectShortName">rx_fifo_wrt_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/rx_1/rx_done" type="logic">
+      <obj_property name="ElementShortName">rx_done</obj_property>
+      <obj_property name="ObjectShortName">rx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/rx_fifo/rx_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">rx_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">rx_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/rx_fifo/wrt_en" type="logic">
+      <obj_property name="ElementShortName">wrt_en</obj_property>
+      <obj_property name="ObjectShortName">wrt_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/rx_fifo/rx_data_in" type="array">
+      <obj_property name="ElementShortName">rx_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uart_top_1/rx_fifo/rx_fifo" type="array">
+      <obj_property name="ElementShortName">rx_fifo[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_fifo[0:7][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/PRDATA" type="array">
+      <obj_property name="ElementShortName">PRDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PRDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/irq" type="logic">
+      <obj_property name="ElementShortName">irq</obj_property>
+      <obj_property name="ObjectShortName">irq</obj_property>
+   </wvobject>
+</wave_config>
