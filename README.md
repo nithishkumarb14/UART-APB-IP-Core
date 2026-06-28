@@ -199,7 +199,7 @@ uart-apb-ip-core/
 
 The waveform below captures the end-state of a full simulation run. The CPU testbench writes 6 bytes (`127, 123, 125, 168, 148, 103`) over APB. All bytes are transmitted serially by the TX module, looped back to RX, and stored in the RX FIFO.
 
-![Simulation Waveform](docs/waveforms/cpu_tb_behav.png)
+![Simulation Waveform](sim/waveforms/cpu_tb_behav.png)
 
 **Key observations from the waveform:**
 - `tx curr_state` returns to `IDLE` after completing all transmissions
